@@ -65,7 +65,7 @@ function Quiz() {
         </button>
       </div>
 
-      {currentQuestion == Questions.length - 1 ? (
+      {currentQuestion === Questions.length - 1 ? (
         <button onClick={finishQuiz} id="nextQuestion">
           Finish Quiz
         </button>
